@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Website</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header>
+
+  <header class="header">
+    <label id="hamburger-icon" for="hamburger-btn">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </label>
+    <input id="hamburger-btn" type="checkbox"/>
+    
+    <nav class="nav-menu" id="navMenu">
+      <ul>
+        <li><a href="#">Home</a></li>
+       <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <li><a href="#intro">Home</a></li>   
+<li><a href="#about">About</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+    </header>
+<section>
+  <img src = "../test_folder/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg" alt="empire state building" width="80">
+  <img class="mySlides" src = "../View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg">
+</section>
+
+</header>
+
+<main>
+<section id="intro">
+<div class="Container">
+<!-- <img src="../test_folder/ball-1845546_1280 (1).jpg" alt="display picture of ball"> -->
+<img class ="Me" src = "../test_folder/MV5BNmRiODExMDktZWZjNS00NTE1LTlmMDAtM2MwMmIxMDFkNjlmXkEyXkFqcGc@._V1_.jpg">
+</div> 
+</section>
+
+</header>
+
+<section id="about">
+<div class="container">
+<h1>About Me</h1>
+<p>I'm a singer, actor, and activist who has over a decade of experience!</p>
+<ul>
+<li>Been in several off-broadway plays</li>
+<li>Juilliard trained</li>
+<li>Over 10 years of public speaking experience</li>
+</ul>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+<h1>Contact me</h1>
+<p>I would love to hear from you.</p>
+<ul>
+<li>Email: rbarcellona@tampabay.rr.com</li>
+<li>Instagram: rachelbarcellonaxo</li>
+<li>Facebook: Rachel Barcellona: Ability Beyond Disabilities</li>
+</ul>
+</div>
+</section>
+
+</main>
+<footer>
+<p>© Copyright 2020 Ability Beyond Disabilities Co LTd.</p>
+</footer>
+
+<header>
+<div class="carousel">
+    <div class="carousel-images">
+      <div class="slideshow-container">
+      <div class="mySlides fade">
+      <img src="../test_folder/julliard-school-slavery-uproar-414.webp" style="width:100%" alt="Julliard image">
+      <div class="text">I studied Vocal Arts at Juilliard for 2 years.</div>
+      </div>
+
+     <div class="mySlides fade">
+      <img src="../test_folder/getty_614138202_2000133520009280253_328692.webp" style="width:100%" alt="Public speaking">
+      <div class="text">I'm an expert in public speaking, and am available for hire./div>
+      </div>
+
+      <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+  </div>
+
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content">
+
+    <header class="w3-container w3-teal">
+      <span onclick="document.getElementById('id01').style.display='none'"
+      class="w3-button w3-display-topright">&times;</span>
+    </header>
+
+    <footer class="w3-container w3-teal">
+    </footer>
+</div>
+
+<div>
+<button id="modal-button">Click Me!</button>
+
+  <div id="myModal" class="modal"></div>
+    <div class="modal-content">
+  
+  <img src="../test_folder/ball-1845546_1280 (1).jpg" onclick="document.getElementById('modal01').style.display='block'" class="w3-hover-opacity">
+
+  <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+    <img class="w3-modal-content" id="Ball image" style="width:100%">
+  </div>
+
+

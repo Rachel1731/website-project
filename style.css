@@ -27,29 +27,21 @@ ul {
   background-color: #ffffff;
 }
 
-#headertext {
-  color: whitesmoke
-}
-
 .hamburger {
-  cursor: pointer;
-  /* Add hamburger styling */
-  background-color: transparent;
-  border: none;
-  outline: none;
-  /* Other styling */
-  position: relative;
-  z-index: 10;
-  padding: 10px;
+cursor: pointer;
+cursor: pointer;
+background-color: transparent;
+border: none;
+outline: none;
+position: relative;
+padding: 10px;
 }
 
 .hamburger .bar {
-    display: block;
+   display: block;
     width: 20px;
     height: 3px;
-    background-color: black;
     margin: 5px;
-    transition: all 0.2s ease;
 }
 
   nav {
@@ -79,11 +71,10 @@ ul {
   }
   
   #hamburger-icon {
-    z-index: 1;
-    top: 10px;
-    right: 10px;
-    position: absolute;
-    cursor: pointer;
+  top: 10px;
+  right: 10px;
+  position: absolute;
+  cursor: pointer;
   }
   
   .line {
@@ -221,10 +212,6 @@ ul {
     font-size: 1rem;
     }
 
-    #intro {
-      background-image: url(pinkbg.jpg);
-      background-repeat: round;
-      }
       #about{
       background-color: pink;
       }
@@ -241,144 +228,16 @@ ul {
         box-sizing: border-box;
     }
     
-    .carousel-container {
-        position: relative;
-        max-width: 100%;
-        overflow: hidden;
-    }
-    
-    .carousel-slide {
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-    }
-    
-    .carousel-slide img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-    
+  
     button {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background-color: rgba(0, 0, 0, 0.5);
-        color: white;
-        border: none;
-        font-size: 24px;
-        padding: 10px;
-        cursor: pointer;
-    }
-    
-    .prev {
-        left: 10px;
-    }
-    
-    .next {
-        right: 10px;
-    }
-    
-    button:hover {
-        background-color: rgba(0, 0, 0, 0.8);
-    }
-    
-
-
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-
-.mySlides {
-  display: none;
-}
-
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-
-.prev:hover, .next:hover {
-  background-color: #fefefe(0,0,0,0.8);
-}
-
-
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-
-}
-
-.modal {
-  display: none; 
-  position: relative;
-  left: 55;
-  top: 100;
-  width: 85px;
-  height: auto;
-}
-
+        width: 10%;
+      height: 10%;
+      color: #f500a8;
+      font-size: large;
+      background-color: #bff7ff;
+      position: absolute;
+      cursor: pointer;
+  
 .close:hover {
   color: #f500a8;
   text-decoration: none;

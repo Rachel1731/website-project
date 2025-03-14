@@ -39,11 +39,13 @@ openModalBtn.onclick = function() {
 
 closeBtn.onclick = function() {
   modal.style.display = 'none';
+  modal.style.display = 'active';
 }
 
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = 'none';
+    modal.style.display = 'active';
   }
 }
 
